@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "154687122494",
+    "firebase_url": "https://life-histories.firebaseio.com",
+    "project_id": "life-histories",
+    "storage_bucket": "life-histories.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154687122494:android:82adc44b667ee44bb2756f",
+        "android_client_info": {
+          "package_name": "com.reactnativeredux"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154687122494-2e98kcdflo24e80tl2keh15cn65r8rmi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRy_StLBTiBskkn2fEtedVcNpa-xhLRJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154687122494-2e98kcdflo24e80tl2keh15cn65r8rmi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
