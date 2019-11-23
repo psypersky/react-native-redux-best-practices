@@ -15,3 +15,8 @@
 - [x] Trigger a firebase action on firebase.onAuthStateChanged
 - [x] Integrate firebase with Redux user and firebase
 - [x] Send to master and change docs
+- [ ] Redirect logged in user to homepage when logged in
+- [ ] Redirect logged in user to SignUp when not logged in
+- [ ] Implement log in
+- [ ] Implement signup
+- [ ] Add a material library
