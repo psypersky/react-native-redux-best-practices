@@ -1,9 +1,9 @@
-import React from 'react';
-import {View, Text, ActivityIndicator, StyleSheet} from 'react-native';
+import React from 'react'
+import {View, Text, ActivityIndicator, StyleSheet} from 'react-native'
 
 export default class Loading extends React.Component {
   componentDidMount() {
-    this.props.navigation.navigate('SignUp');
+    this.props.navigation.navigate('SignUp')
   }
 
   render() {
@@ -12,7 +12,7 @@ export default class Loading extends React.Component {
         <Text>Loading</Text>
         <ActivityIndicator size="large" />
       </View>
-    );
+    )
   }
 }
 
@@ -22,4 +22,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-});
+})
