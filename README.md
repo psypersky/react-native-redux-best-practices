@@ -87,7 +87,8 @@ faceyspacey/redux-first-router
 ## Standars - Best Practices
 
 Use simple names for reducers e.g. `user`, we know it comes from a reducer.
-Action constants CHAT:q:CHANGE_MESSAGE
+Action constants CHAT::CHANGE_MESSAGE
+Angular type constants [CHAT] CHANGE_MESSAGE ?
 Throw an error when reducer type is not found, why should we fail silently?
 
 https://redux-actions.js.org/
