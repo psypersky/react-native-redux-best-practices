@@ -2,10 +2,6 @@ import React from 'react'
 import {View, Text, ActivityIndicator, StyleSheet} from 'react-native'
 
 export default class Loading extends React.Component {
-  componentDidMount() {
-    this.props.navigation.navigate('SignUp')
-  }
-
   render() {
     return (
       <View style={styles.container}>

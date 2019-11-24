@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react-native": "^0.61.4"
+    "react-native": "^0.61.4",
+    "react-navigation-tabs": "^2.6.0"
   }
 }
