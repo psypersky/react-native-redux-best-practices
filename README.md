@@ -2,6 +2,8 @@
 
 Exploring and documenting all the nice and ugly parts of React Native and Redux
 
+In order to explore this repository make a global search for the key words 'NOTICE', 'QUESTION' and 'MODULARITY' and you will find nice peaces of documentation explaining architectural desicions.
+
 ## Redux motivations and principles
 
 Motivaion [https://redux.js.org/introduction/motivation](Read)
@@ -33,6 +35,11 @@ Thee principles[https://redux.js.org/introduction/three-principles](Read)
 
 ## Redux Principles
 
+### ---
+
+Flux was created by Facebook with one goal in mind: Reduce bugs and complexity,
+MVC [http://voidcanvas.com/flux-vs-mvc/](See-the-images)...
+
 ### The response of a question should live in just one file
 
 What happens when an action happens?
@@ -49,6 +56,7 @@ keeping code compartmentalized
 
 Do not use ReactNavigator please!
 Looks like ReactNavigator finally realized it sucks https://blog.expo.io/announcing-react-navigation-5-0-bd9e5d45569e
+They also realized it https://github.com/react-navigation/redux-helpers
 Testing, Rehydration, Logging
 explain...
 

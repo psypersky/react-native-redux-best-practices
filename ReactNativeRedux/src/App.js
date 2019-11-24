@@ -6,10 +6,6 @@ import './events'
 import Navigator from './navigation'
 
 export default class App extends Component {
-  componentDidMount() {
-    // SplashScreen.hide()
-  }
-
   render() {
     return (
       <Provider store={store}>

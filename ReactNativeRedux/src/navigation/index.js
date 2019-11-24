@@ -29,6 +29,9 @@ const AppNavigator = createSwitchNavigator({
   App: AppBottomTabNavigator,
   Auth: AuthStackNavigator,
 })
+
+console.log(AppNavigator)
+
 const AppNavigatorContainer = createAppContainer(AppNavigator)
 
 /**
@@ -45,5 +48,12 @@ const AppNavigatorContainer = createAppContainer(AppNavigator)
  * which if gets out of sync it could create very nasty bugs.
  *
  * I) Do you see now why using ReactNavigation is a really bad practice?
+ *
+ * R) From This two options the less prone to bugs is 1, we don't want to risk
+ * nasty bugs because the Navigation state in Redux got out of sync with
+ * the Navigation state of ReactNavigator, so we will not implement 2 not even
+ * for reference.
+ *
+ * QUESTION: How do we take navigate() to a reducer?
  */
 export default AppNavigatorContainer
