@@ -32,6 +32,7 @@ Thee principles[https://redux.js.org/introduction/three-principles](Read)
 - Action creators: Functions that create actions
 - Reducer: Tie the state and actions togheter, next state of the app
 - Reducer composition
+- Thunks: Action Creators Functions
 
 ## Redux Principles
 
@@ -132,7 +133,7 @@ Do not catch on Thunks [https://redux.js.org/advanced/async-actions](Link)
 - Is it a common practice to make a network middleware? what are the pros / cons?
 - Detect not implemented actions
 - See the whole state of the app in React Native Debugger
-- how do you tell `UpturnMobile/src/support/navigation/navigators/LoggedInNavigator.js` which one is the default?
+- how do you tell `src/support/navigation/navigators/LoggedInNavigator.js` which one is the default?
 - is it a common practice to put the state in state.dataReducer.adReducer? would it be better to just do state.ad, date.user....
 - should view components call service directly => yes
 
